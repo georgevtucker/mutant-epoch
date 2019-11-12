@@ -4,6 +4,8 @@
 
 # WORKING BUT results aren't printing nicely -- need to strip out special characters or map ugly results to pretty results. 
 
+# Play with the script here: https://WORKING-Random-Weighted-Selection.georgevtucker.repl.run
+
 def random_weighted(weighted)
   max    = sum_of_weights(weighted)
   target = rand(1..max)
