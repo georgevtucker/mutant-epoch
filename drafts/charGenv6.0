@@ -1,0 +1,77 @@
+  def d(x,y=1)
+    total = 0
+    y.times do 
+      total += rand(1..x)
+    end
+    return total
+  end
+
+load 'classes.rb'
+
+  # def race_assign(roll) #update to reflect player  level
+  #   case roll
+  #     when 1..32, 101..121, 201..214
+  #       "Pure Stock Human"
+  #     when 33, 122
+  #       "Clone, Comfort"
+  #     when 34, 123, 215
+  #       "Clone, Labor"
+  #     when 35, 124..130, 217..221
+  #       "Clone, Military"
+  #     when 36, 131
+  #       "Bioreplica, Pleasure"
+  #     when 37, 132..133, 222..223
+  #       "Bioreplica, Industrial"
+  #     when 38, 134, 224
+  #       "Bioreplica, Clerical"
+  #     when 39, 135..136, 225..227
+  #       "Bioreplica, Infiltration"
+  #     when 40, 137..140, 228..233
+  #       "Bioreplica, Battle"
+  #     when 41, 141..145, 234..237
+  #       "Trans-Human"
+  #     when 42..55, 146..156, 238..249
+  #       "Cyborg"
+  #     when 56..61, 157..165, 250..257
+  #       "Bestial Human"
+  #     when 62..68, 166..173, 258..266
+  #       "Ghost Mutant"
+  #     when 69..87, 174..179, 267..268
+  #       "Mutant, Mild"
+  #     when 88..98, 180..190, 269..281
+  #       "Mutant, Typical"
+  #     when 99..100, 180..190, 269..281
+  #       "Mutant, Severe"
+  #     when 199..200, 294..300
+  #       "Mutant, Freakish Horror"
+  #   end
+  # end
+
+
+  # def set_strength(num)
+  #   @strength=num
+  # end
+
+
+# dude = Pure_stock_human.new
+# dude.display_character_sheet
+
+# shayna = Bioreplica_pleasure.new
+# puts shayna.inspect
+
+weebly = Trans_human.new
+weebly.display_character_sheet
+
+# mutie = Ghost_mutant.new
+# puts mutie.inspect
+
+# mild = Mutant_mild.new
+# puts mild.inspect
+
+# typee = Mutant_typical.new
+# puts typee.inspect
+# puts typee.display_character_sheet
+
+# severus = Mutant_severe.new
+# puts severus.inspect
+# severus.display_character_sheet
